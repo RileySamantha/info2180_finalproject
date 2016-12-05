@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <head>
+    <title>CheapOmail_adduser</title>
+   <!--<link rel=stylesheet type="text/css" href="login.css">-->
+    <script src="lib/jquery-1.11.1.js"></script>
+    <script src=""></script>
+  </head>
+  
+  <body style="text-align:center;" background="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1jK2LHMBlBQwweG1LiKZ_LIqfKYqTYVrvAV2JMeDgjekUtevy">
+  <h1>Add User</h1>
+    <form id="logininfo" action="adduser.php" method="post"> 
+      <fieldset>
+       <p> <strong>First Name: </strong> <input type="text" id ="firstname" name="firstname" class="textfield" required> </p>
+        <p><strong>Last Name: </strong> <input type="text" id ="lastname" name="lastname" class="textfield" required> </p>
+       <p> <strong>Username: </strong> <input type="text" id ="username" name="username" class="textfield" required> </p>
+       <p> <strong>Password: </strong> <input type="password" id ="password" name="password" class="textfield" required> </p>
+        <p><input type="submit" id="submit" value="Submit"></p>
+       </fieldset>
+    </form>
+          <a href="logout.php"><input type="button" value="Logout"></a>
+     
+  </body>
+</html>

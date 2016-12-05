@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<html>
+    <head>
+        <title>CheapOmail_homepage</title>
+        <link rel="stylesheet" href="homepage.css" type="text/css" />
+        <script type="text/javascript" src="homepage.js"></script>
+    </head>
+    
+      <body style="text-align:center;" background="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1jK2LHMBlBQwweG1LiKZ_LIqfKYqTYVrvAV2JMeDgjekUtevy">
+          <form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+      <fieldset >
+<h1>Homepage</h1> 
+<a href="logout.php" style="text-align:right;"><button >Log Out</button></a>
+<br>
+
+<input type='hidden' name='submitted' id='submitted' value='1'/>
+ 
+
+<input type='button' name='messages' id='messages' value='Recent Messages'/><br>
+<br> 
+<p>Recipient:<input type="number" id="recipient_ids" name="recipient_ids" required></p>
+<p>Subject:<input type="text" id="subject" name="subject" required ></p>
+<label for='compose' >Compose message:</label><br>
+<textarea type="textarea" name='compose' id='compose' cols= '30' rows='10' required>Message here</textarea> 
+<br>
+<br>
+
+<input type='button' name='send' id='send' value='Send'/>
+<input type='button' name='clear' id='clear' value='Clear'/><br>
+
+</fieldset>
+</form>
+</body> 
+</html>
+

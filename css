@@ -1,0 +1,135 @@
+.navbar-login
+{
+    width: 305px;
+    /*padding: 10px;*/
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.table th:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.table .action-column{
+    width: 230px;
+}
+.table .action-column:hover{
+    text-decoration: none;
+    cursor: default;
+}
+.table tfoot .pagination{
+    float: right;
+    margin: 0;
+}
+.table tfoot .pagination li{
+    cursor: pointer;
+}
+.table tfoot select{
+    width: 90px;
+    float: right;
+    margin-right: 8px;
+}
+
+#body{
+    background-image:url('http://images.fineartamerica.com/images-medium-large-5/christmas-winter-landscape-mailbox-gift-boxes-frank-ramspott.jpg');
+   background-repeat:no-repeat;
+    background-size: 100% 170%;
+   color: white;
+}
+#form1{
+    margin-right: 0px;
+    height: 250px;
+    width: 220px;
+    /*background-color: #0a285c;*/
+    margin-left: 150px;
+    text-align:center;
+    background: linear-gradient(#05142e, white); 
+}
+#wel{
+     margin-left: 150px;
+     text-shadow: 0 0 20px black;
+     font-size: 54px;
+}
+#ses{
+     margin-left: 150px;
+     text-shadow: 0 0 50px black;
+     font-size: 34px;
+     font-style: italic;
+}
+#sidebar-wrapper{
+    background: linear-gradient(#990000, #e69900);
+}
+#signup{
+    background-color: #e69900;
+    margin-bottom: 30px;
+}
+
+#menu-toggle{
+    background-color: #e69900;
+}
+#logout{
+    background-color: #990000;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.modal-body{
+    background: linear-gradient(#990000, #e69900);
+}
+.modal-header{
+    background-color: #990000;
+}
+.modal-footer{
+    background-color: #990000;
+}
+.modal-footer button{
+    background-color: #e69900;
+    color: black;
+}
+#openmodal{
+    background-color: #e69900;
+}
+
+#bodya{
+    background-image:url('http://6.firepic.org/6/images/2014-12/20/pzr9e9kdm3lg.jpg');
+   background-repeat:no-repeat;
+    background-size: 100% 280%;
+   color: white;
+   /*text-decoration: */
+    
+}
+th{
+     background-color: #990000;
+}
+td{
+     background-color: #e69900;
+     color: black;
+}
+#bodya h1{
+    background: linear-gradient(#990000, #e69900);
+    width: 230px;
+    text-align: center;
+}
+span{
+    background-color: #990000;
+}
+.ng-scope{
+    margin-bottom: 20px;
+}
+#usernameID{
+    background-color: #e69900;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 120px;
+    text-align: center;
+}
